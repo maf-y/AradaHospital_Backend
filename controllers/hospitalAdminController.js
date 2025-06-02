@@ -9,6 +9,7 @@ const mongoose = require("mongoose")
 const bcrypt = require("bcrypt");
 const HospitalAdministrator = require("../models/HospitalAdministrator");
 const addStaffAccount = async (req, res) => {
+  
   try {
     const {
       role,
