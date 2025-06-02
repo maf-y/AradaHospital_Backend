@@ -1,6 +1,6 @@
-const LabRequest = require('../models/LabRequest');
-const LabTechnician = require('../models/LabTechnician');
-const Patient = require('../models/Patient');
+const LabRequest = require('../models/labRequest');
+const LabTechnician = require('../models/labTechnician');
+const Patient = require('../models/patient');
 
 // Get all lab requests for the technician's hospital
 const getLabRequests = async (req, res) => {

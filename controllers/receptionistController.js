@@ -1,7 +1,7 @@
-const Patient = require('../models/Patient');
-const MedicalRecord = require('../models/MedicalRecord');
+const Patient = require('../models/patient');
+const MedicalRecord = require('../models/medicalRecord');
 // controllers/receptionistController.js
-const Receptionist = require('../models/Receptionist');
+const Receptionist = require('../models/receptionist');
 
 
 const registerOrInitiatePatient = async (req, res) => {

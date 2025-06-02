@@ -1,8 +1,8 @@
 const bcrypt = require("bcrypt");
-const Patient = require("../models/Patient"); 
-const MedicalRecord = require('../models/MedicalRecord');
-const Prescription = require('../models/Prescription');
-const Doctor = require('../models/Doctor');
+const Patient = require("../models/patient"); 
+const MedicalRecord = require('../models/medicalRecord');
+const Prescription = require('../models/prescription');
+const Doctor = require('../models/doctor');
 
 const registerPatient = async (req, res) => {
   try {
